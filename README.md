@@ -54,7 +54,7 @@ daijia-parent
 │   ├── web-customer/             # 乘客端
 │   ├── web-driver/               # 司机端
 │   └── web-mgr/                  # 管理后台
-└── 资料/                          # Nacos 配置文件（DEFAULT_GROUP）
+└── nacos-config/                  # Nacos 配置文件（DEFAULT_GROUP）
 ```
 
 ## 环境要求
@@ -78,7 +78,7 @@ daijia-parent
 
 ## 快速开始
 
-1. 配置 Nacos（注册中心 + 配置中心），将 `资料/DEFAULT_GROUP/` 中的 yaml 配置导入
+1. 配置 Nacos（注册中心 + 配置中心），将 `nacos-config/DEFAULT_GROUP/` 中的 yaml 配置导入
 2. 启动各基础设施（MySQL、Redis、RabbitMQ、Nacos、MongoDB）
 3. 启动业务服务（按需）：
    ```bash
