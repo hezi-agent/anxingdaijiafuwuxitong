@@ -16,7 +16,7 @@
 | Sentinel | 流量控制 |
 | MyBatis-Plus | 3.5.3.1（持久层） |
 | MySQL | 8.0 |
-| Redis + Redisson | 缓存 + 分布式锁 + 延迟队列 |
+| Redis + Redisson | 缓存 + 分布式锁 |
 | RabbitMQ | 延迟消息（x-delayed-message 插件） |
 | Seata | 分布式事务 |
 | XXL-Job | 分布式任务调度 |
